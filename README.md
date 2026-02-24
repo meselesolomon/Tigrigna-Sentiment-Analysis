@@ -13,8 +13,7 @@ The dataset is provided in `.csv` format with the following columns:
 
 | Column | Description |
 | :--- | :--- |
-| **comment** | The raw, original text as it appeared on YouTube. |
-| **cleaned_text** | The text after the preprocessing pipeline (normalization, stopword removal, etc.). |
+| **text** | The raw, original text as it appeared on YouTube. |
 | **label** | The sentiment class (Positive, Negative, or Neutral). |
 
 > **Data Quality Note:** This dataset represents a significant manual annotation effort. While every effort was made to ensure accuracy through a human-in-the-loop strategy, users should be aware of "label noise" inherent in social media text due to linguistic nuances, sarcasm, and subjectivity.
