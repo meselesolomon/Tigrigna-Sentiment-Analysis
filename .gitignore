@@ -4,8 +4,8 @@
 *.bin
 
 # Data files
-data/raw_unlabeled_corpus.txt
-data/*.csv
+# data/raw_unlabeled_corpus.txt
+# data/*.csv
 
 # Python environment
 __pycache__/
