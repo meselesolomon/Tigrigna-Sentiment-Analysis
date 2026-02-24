@@ -77,3 +77,4 @@ def clean_tigrigna_text(text):
     words = [w for w in words if w not in TIGRIGNA_STOPWORDS]
 
     return " ".join(words) # Returns a string for Deep Learning models
+    
