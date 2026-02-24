@@ -1,0 +1,5 @@
+tensorflow      # Use full TensorFlow (GPU version) for training Bi-LSTM
+gensim          # CRUCIAL: To load/train your FastText 100D embeddings
+scikit-learn    # To calculate that 78% Macro F1 and do the 70/15/15 split
+matplotlib      # For visualizing training loss/accuracy curves
+tqdm            # To see progress bars while processing 30,353 comments

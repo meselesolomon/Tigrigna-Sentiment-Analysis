@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tigrigna Sentiment Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Tigrigna Sentiment Tool</h3>
+
+    <div class="input-container">
+      <input id="videoId" placeholder="YouTube Video ID" />
+    </div>
+
+    <div class="button-group">
+      <button id="analyze">Analyze Sentiment</button>
+      <button id="collect">Collect Dataset</button>
+    </div>
+
+    <div
+      id="total-display"
+      style="text-align: center; font-weight: bold; margin: 10px 0"
+    ></div>
+
+    <div id="cards"></div>
+
+    <button id="download-analysis" style="display: none">
+      Export Dataset (.csv)
+    </button>
+
+    <div id="category-title"></div>
+    <div id="comments"></div>
+
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
