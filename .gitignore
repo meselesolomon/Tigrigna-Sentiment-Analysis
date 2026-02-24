@@ -1,0 +1,13 @@
+# Large model files
+*.h5
+*.pickle
+*.bin
+
+# Data files
+data/raw_unlabeled_corpus.txt
+data/*.csv
+
+# Python environment
+__pycache__/
+venv/
+.env
